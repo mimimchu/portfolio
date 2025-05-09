@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hamster in the Code</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="logo">
+                <a href="#hero">
+                   <img src="images/tinydevlogo.png" alt="Hamster Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="#profile" class="nav-link">About</a>
+                <a href="#works" class="nav-link">Works</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-text">
+                    <h1>AMI OGAWA</h1>
+                    <h2>Tiny Dev Portfolio. </h2>
+                </div>
+                <nav class="hero-nav">
+                    <a href="#profile" class="hero-nav-link">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#works" class="hero-nav-link">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="#skills" class="hero-nav-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="#contact" class="hero-nav-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </nav>
+            </section>
+
+            <section class="profile fade-in-section" id="profile">
+                <h2>About me</h2>
+                <div class="profile-content">
+                    <p>
+                       はじめまして。<br>
+                       小川碧海と申します。<br>
+                       現在フロントエンド開発を中心に学習中のエンジニア志望です。<br>
+                       ミニマルで美しいUIデザイン、そしてシンプルかつ直感的なユーザー体験を追求しています。<br>
+                       新しい技術を試しながら、小さな作品をひとつひとつ丁寧に作り上げています。
+                    </p>
+                    <img src="images/icon.jpg" alt="profile icon" class="profile-icon">
+                </div>
+            </section>
+
+            <section class="works fade-in-section" id="works">
+                <h2>Works</h2>
+                <div class="works-content">
+                    <p>Coming Soon...</p>
+                </div>
+            </section>
+
+            <section class="skills fade-in-section" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-content">
+                    <div class="skill">
+                        <p>HTML/CSS</p>
+                        <div class="skill-bar">
+                             <div class="skill-level" style="width: 80%;" >
+                                <span class="skill-percent">80%</span>
+                             </div>
+                        </div>
+                    </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;">
+                            <span class="skill-percent">60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>React</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 40%;">
+                            <span class="skill-percent">40%</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="skill-note">※スキルレベルは自己評価です。現在も継続的に学習中です。</p>
+            </section>
+
+            <section class="contact fade-in-section" id="contact">
+                <h2>Contact</h2>
+                <p class="contact-text">お気軽にご連絡ください。</p>
+                <div class="contact-links">
+                    <a href="mailto:ami.ogawa2000@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>Mail</a>
+                    <a href="https://github.com/mimimchu" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>Github</a>
+                </div>
+            </section>
+
+            <button class="back-to-top" id="backToTop">
+                <img src="images/topicon_transparent.png" alt="Back to Top" class="top-icon">
+            </button>
+
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2025 Hamster in the Code. All rights reserved.</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>    
+</html>
